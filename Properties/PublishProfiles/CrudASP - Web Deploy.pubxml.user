@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAOrxIFBDiMUqu3e+rtSBbqQAAAAACAAAAAAAQZgAAAAEAACAAAAC9mt6K04VinIS5qHDxV73fWa+51GeapMGvUVu+0MERqwAAAAAOgAAAAAIAACAAAACUm6tbaI+XkbJ1f8vkCUrYnqtk9EEYxpj0ii9zcU2S7YAAAADxTqAE/B1ZAgwOzhkqyK4WBtSly1FXks4gJqqZN4XZ2gsT5R9M5x5QfF1/XHbY6ACVS3DKPZ5IgigDDh70ad0LnqhHwwFo4Flpy3hednYqm5bysEnLfz6XUTu+nBxernI8/gCXGRgAPpx9tVA7V+Iv0es5kPIcOywEE2VkCZ8nyUAAAAAGvx2RJuLjjLlWY+ZW1mv5tVpjsBZR0cBXKxM251FgrlVnuTZI5TeeDn8pVIOyEE9Epg6kZ3DQN8JMFoVmmRGq</EncryptedPassword>
+    <History>True|2021-05-10T01:49:26.7540626Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:crudaspdbserverdbserver.database.windows.net,1433%3bInitial Catalog=CrudASPdbServer%3bUser Id=adminuser%40crudaspdbserverdbserver%3bPassword=Admin%40123%2a</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="ASP.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:crudaspdbserverdbserver.database.windows.net,1433%3bInitial Catalog=CrudASPdbServer%3bUser Id=adminuser%40crudaspdbserverdbserver%3bPassword=Admin%40123%2a</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
